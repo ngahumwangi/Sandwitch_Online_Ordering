@@ -24,6 +24,9 @@
             <children xsi:type="notation:Shape" xmi:id="_toXQUNOaEeyokdPkvZ7ZIw" type="IEEntityNonKey" element="_toLqINOaEeyokdPkvZ7ZIw" fontName="Segoe UI">
               <layoutConstraint xsi:type="notation:Bounds" xmi:id="_toXQUdOaEeyokdPkvZ7ZIw"/>
             </children>
+            <children xsi:type="notation:Shape" xmi:id="_JCTb8NOmEeyokdPkvZ7ZIw" type="IEEntityNonKey" element="_F7zlENOmEeyokdPkvZ7ZIw" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_JCTb8dOmEeyokdPkvZ7ZIw"/>
+            </children>
             <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_i9N8QdOaEeyokdPkvZ7ZIw" sortingKeys="Natural:Ascending"/>
           </children>
           <children xmi:id="_i9OjUNOaEeyokdPkvZ7ZIw" visible="false" type="entity.ie.description.compartment">
@@ -53,6 +56,7 @@
     <attributes xmi:id="_bkSm4NOaEeyokdPkvZ7ZIw" name="Topping ID" dataType="VARCHAR(10)" required="true"/>
     <attributes xmi:id="_nu_CINOaEeyokdPkvZ7ZIw" name="Topping Name" dataType="VARCHAR(50)"/>
     <attributes xmi:id="_toLqINOaEeyokdPkvZ7ZIw" name="Topping Description" dataType="CHAR(255)"/>
+    <attributes xmi:id="_F7zlENOmEeyokdPkvZ7ZIw" name="Topping Code" dataType="CHAR(5)"/>
     <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_dzaJ0NOaEeyokdPkvZ7ZIw" name="Topping_PK" attributes="_bkSm4NOaEeyokdPkvZ7ZIw"/>
   </LogicalDataModel:Entity>
 </xmi:XMI>
